@@ -1,0 +1,8 @@
+{
+  "commitClass": "ASSOCIATIVE",
+  "domainId": "customer-support",
+  "payload": {
+    "note": "experimental route should not resolve as canonical"
+  },
+  "routeId": "unknown-route"
+}

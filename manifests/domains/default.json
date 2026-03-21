@@ -1,0 +1,14 @@
+{
+  "dictionaryId": "tvs-domains",
+  "version": "1.2.0",
+  "entries": [
+    {
+      "id": "customer-support",
+      "description": "Customer support and service interaction domain."
+    },
+    {
+      "id": "sales-assist",
+      "description": "Sales assistance and commercial negotiation domain."
+    }
+  ]
+}

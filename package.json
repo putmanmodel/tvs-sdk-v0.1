@@ -1,0 +1,62 @@
+{
+  "name": "tvs-sdk",
+  "version": "0.1.0",
+  "description": "The installable representation boundary for TVS tags.",
+  "license": "CC-BY-NC-4.0",
+  "keywords": [
+    "tvs",
+    "tone-vector-system",
+    "representation",
+    "serialization",
+    "provenance",
+    "replay",
+    "typescript",
+    "sdk"
+  ],
+  "type": "commonjs",
+  "main": "dist/src/index.js",
+  "types": "dist/src/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./dist/src/index.d.ts",
+      "require": "./dist/src/index.js",
+      "default": "./dist/src/index.js"
+    },
+    "./schema/registry": {
+      "types": "./dist/src/schema/registry.d.ts",
+      "require": "./dist/src/schema/registry.js",
+      "default": "./dist/src/schema/registry.js"
+    },
+    "./schema/semver": {
+      "types": "./dist/src/schema/semver.d.ts",
+      "require": "./dist/src/schema/semver.js",
+      "default": "./dist/src/schema/semver.js"
+    },
+    "./adapters/conformance": {
+      "types": "./dist/src/adapters/conformance/jsonl.d.ts",
+      "require": "./dist/src/adapters/conformance/jsonl.js",
+      "default": "./dist/src/adapters/conformance/jsonl.js"
+    }
+  },
+  "bin": {
+    "tvs-sdk-demo": "dist/src/cli/demo.js"
+  },
+  "files": [
+    "dist",
+    "!dist/tests",
+    "README.md",
+    "manifests",
+    "fixtures"
+  ],
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "test": "npm run build && node --test dist/tests/tvs-sdk.test.js",
+    "demo": "npm run build && node dist/src/cli/demo.js"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "devDependencies": {
+    "@types/node": "^25.5.0"
+  }
+}

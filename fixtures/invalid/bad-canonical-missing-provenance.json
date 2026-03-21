@@ -1,0 +1,8 @@
+{
+  "commitClass": "CANONICAL",
+  "domainId": "customer-support",
+  "payload": {
+    "intent": "refund_request"
+  },
+  "routeId": "intent-resolution"
+}
