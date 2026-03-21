@@ -149,9 +149,9 @@ The replay helper is intentionally minimal. It preserves deterministic serialize
 
 ## Contact
 
-Stephen A. Putman
-putmanmodel@pm.me
-@putmanmodel X/BlueSky
+Stephen A. Putman  
+putmanmodel@pm.me  
+@putmanmodel X/BlueSky  
 u/putmanmodel Reddit
 
 ## License
