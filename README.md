@@ -4,6 +4,8 @@
 
 It standardizes how Tone Vector System tags are represented, parsed, resolved, validated, serialized, replayed, and transitioned between commit classes. It does not implement extraction, live inference, deviation scoring, governance routing, persistence policy, memory-tier ownership, dashboards, or network services.
 
+This package implements the TVS representation boundary described in *Tone Vector System (TVS): A Modular Representation Layer for Interoperable Signals*.
+
 ## Scope
 
 Version `0.1` includes:
