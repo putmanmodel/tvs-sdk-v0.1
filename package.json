@@ -2,6 +2,15 @@
   "name": "tvs-sdk",
   "version": "0.1.0",
   "description": "The installable representation boundary for TVS tags.",
+  "author": "Stephen A. Putman",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/putmanmodel/tvs-sdk-v0.1.git"
+  },
+  "bugs": {
+    "url": "https://github.com/putmanmodel/tvs-sdk-v0.1/issues"
+  },
+  "homepage": "https://github.com/putmanmodel/tvs-sdk-v0.1#readme",
   "license": "CC-BY-NC-4.0",
   "keywords": [
     "tvs",
